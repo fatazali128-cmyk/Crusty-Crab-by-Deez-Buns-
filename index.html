@@ -64,6 +64,22 @@
       text-shadow: 0 0 8px rgba(255, 140, 66, 0.3);
     }
 
+    .tag-new, .tag-best {
+      display: inline-block;
+      background-color: #ff0000;
+      color: #fff;
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    .tag-best {
+      background-color: #ff8c42;
+      color: #1b1b1b;
+    }
+
     .price {
       font-size: 1rem;
       color: #bcbcbc;
@@ -82,28 +98,6 @@
       font-size: 0.9rem;
       color: #9a9a9a;
       margin-top: 4px;
-    }
-
-    .tag-new {
-      display: inline-block;
-      background-color: #ff0000;
-      color: #fff;
-      font-size: 0.7rem;
-      padding: 2px 6px;
-      border-radius: 5px;
-      margin-left: 10px;
-      font-weight: bold;
-    }
-
-    .tag-bestseller {
-      display: inline-block;
-      background-color: #FFD700;
-      color: #000;
-      font-size: 0.7rem;
-      padding: 2px 6px;
-      border-radius: 5px;
-      margin-left: 10px;
-      font-weight: bold;
     }
 
     .contact {
@@ -150,17 +144,24 @@
   <section class="menu">
 
     <div class="item">
-      <span class="name">Smash Craby Patty <span class="tag-bestseller">BEST SELLER</span></span>
-      <span class="ingredients">Juicy beef smash patty, caramelised onions, cheese slice, soft buns, signature sauce</span>
+      <span class="name">Smash Craby Patty <span class="tag-best">BEST SELLER</span></span>
+      <span class="ingredients">Juicy beef smash patty, caramelised onions, cheese slice, soft buns</span>
       <span class="price">Rs 680</span>
-      <span class="note">Make it a meal +199 (fries and drink)</span>
+      <span class="note">Make it a meal for +Rs 199 (fries and drink)</span>
     </div>
 
     <div class="item">
       <span class="name">Crusty Double Deluxe</span>
-      <span class="ingredients">Double beef patties, double cheese, caramelised onions, signature sauce, soft buns</span>
+      <span class="ingredients">Double beef patties, double cheese, crispy onions, signature sauce, soft buns</span>
       <span class="price">Rs 870</span>
-      <span class="note">Make it a meal +199 (fries and drink)</span>
+      <span class="note">Make it a meal for +Rs 199 (fries & drink)</span>
+    </div>
+
+    <div class="item">
+      <span class="name">Crusty Chicki Blast <span class="tag-new">NEW</span></span>
+      <span class="ingredients">Juicy zinga chicken, mayo, lettuce, salad leaves, soft buttered buns, raw onion rings</span>
+      <span class="price">Rs 570</span>
+      <span class="note">Make it a meal for +Rs 199 (fries & drink)</span>
     </div>
 
     <div class="item">
